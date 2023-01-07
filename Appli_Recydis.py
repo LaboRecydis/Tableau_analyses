@@ -7,7 +7,7 @@ from PIL import Image
 #import matplotlib.pyplot as plt
 #matplotlib.use('Agg')
 import json
-import plotly.express as px
+#import plotly.express as px
 import altair as alt
 
 
