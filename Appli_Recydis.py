@@ -34,7 +34,7 @@ if __name__=="__main__":
 
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.png")
-    img2 = Image.open("IMG_Recydis.png") 
+    img2 = Image.open("IMG_RECYDIS.png") 
     st.sidebar.image(img1, width=300)
     st.sidebar.image(img2, width=300)
 
