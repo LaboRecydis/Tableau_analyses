@@ -33,8 +33,10 @@ if __name__=="__main__":
   
 
     # Display the LOGO
-    img = Image.open("LOGO_RECYDIS.png")
-    st.sidebar.image(img, width=300)
+    img1 = Image.open("IMG_PAPREC.png")
+    img2 = Image.open("IMG_Recydis.png") 
+    st.sidebar.image(img1, width=300)
+    st.sidebar.image(img2, width=300)
 
     #Collecter le profil d'entrée
     st.sidebar.header("Identifiant du client")
