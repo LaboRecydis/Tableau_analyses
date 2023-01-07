@@ -36,7 +36,7 @@ if __name__=="__main__":
     img1 = Image.open("IMG_PAPREC.jpg")
     img2 = Image.open("IMG_RECYDIS.jfif") 
     st.sidebar.image(img1, width=250)
-    st.sidebar.image(img2, width=300)
+    st.sidebar.image(img2, width=250)
 
     #Collecter le profil d'entrée
     st.sidebar.header("Identifiant du client")
