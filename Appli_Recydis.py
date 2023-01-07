@@ -35,7 +35,7 @@ if __name__=="__main__":
     # Display the LOGO
     img1 = Image.open("IMG_PAPREC.jpg")
     img2 = Image.open("IMG_RECYDIS.jfif") 
-    st.sidebar.image(img1, width=300)
+    st.sidebar.image(img1, width=200)
     st.sidebar.image(img2, width=300)
 
     #Collecter le profil d'entrée
